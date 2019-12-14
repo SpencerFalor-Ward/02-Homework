@@ -20,5 +20,5 @@ The dificulties about this project are as follows:
 - Making sure that I include all requirements
   - I'm looking at you  [sticky footer](https://css-tricks.com/couple-takes-sticky-footer/)
 - Getting enough sleep
-  - ![Badge](https://img.shields.io/badge/Sleep-Getting%208hr-brightgreen?style=flat?&link=https://cdn.shopify.com/s/files/1/0608/2925/products/Month6_1024x1024.jpg)
+  - [8 hrs :pray:](https://cdn.shopify.com/s/files/1/0608/2925/products/Month6_1024x1024.jpg)
 	
