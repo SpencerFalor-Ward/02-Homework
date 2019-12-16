@@ -1,0 +1,21 @@
+.logo {
+    float:left;
+}
+
+.main-nav {
+    float:right;
+}
+
+.main-nav ul {
+    list-style-type: none;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color:
+}
