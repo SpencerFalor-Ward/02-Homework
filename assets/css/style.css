@@ -9,6 +9,7 @@
 }
 
 .container {
+    Margin: auto;
     width: 960px;
     font-family: Arial, Helvetica, sans-serif;
     background-color:#ffffff;
