@@ -1,18 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    width: 960px;
-    clear:both;
     background-color:#777;
 }
 
+form {
+    
+}
 .head {
-    width: 80%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    margin-top: 6%;
-    margin-bottom: 2%;
+    width: 100%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin-bottom: 0.1%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
     border-color: #cccccc;
+}
+
+#name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 12.5%;
 }
 
 #main-nav {
@@ -31,32 +41,44 @@ body {
     text-decoration: none;
 }
 
-
 .logo {
     float:left;
     width:33.3%;
-    color:#ffffff;
+    color:#4aaaa5;
 }
 
 #profilePic {
-    position:top 20;
-    position: right 2;
-    height: 10%;
+    height: 420px;
+    width: 280px;
     float:left;
+    clear:left;
+    position: inline;
+    Border: 1px solid;
+    Margin: 30px;
+
 }
 
 
 .aboutMe {
-    float:clear both;
+    
+    
 }
 
 #main-info {
-    color: #777;
-    background-color: #cccccc;
+    background-color: #ffffff;
+    margin: 30px;
+    Border: 1px;
+    padding: 10px;
+    height: fit-content;
 }
 .footer {
-    position: relative;
+    position: fixed;
+    width: 100%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin-top: 0.1%;
     background-color: #666666;
+    color: #ffffff
 }
 Colors (Pro Tip: Use the Eye Dropper Chrome extension to find the colors that are used on webpages.)
 
