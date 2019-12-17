@@ -1,52 +1,49 @@
-.head{
-    width: 100%;
-    padding: 20px;
+body {
+    width: 960px;
+    clear:both;
+    background-color:#777;
+}
+
+.head {
+    width: 80%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 6%;
+    margin-bottom: 2%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
     border-color: #cccccc;
 }
 
-.main-nav {
+#main-nav {
     float:right;
 }
                         
-.main-nav ul {
+#main-nav ul {
     list-style-type: none;
 }
                         
-.main-nav ul li {
+#main-nav ul li {
     display: inline-block;
+}
+
+#main-nav ul li a {
+    text-decoration: none;
 }
 
 
 .logo {
     float:left;
     width:33.3%;
-
+    color:#ffffff;
 }
+
 #profilePic {
     position:top 20;
     position: right 2;
     height: 10%;
     float:left;
 }
-
-.container {
-    Position:top 10%;
-    Position: right 33.3%;
-    Margin: auto;
-    Border-top: 20px;
-    border-left: auto;
-    border-right: auto;
-    border-bottom: 50px;
-    width: 960px;
-    height: 35%;
-    clear:both;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:#ffffff;
-    border-color:#dddddd;
-}
-
 
 
 .aboutMe {
@@ -55,6 +52,7 @@
 
 #main-info {
     color: #777;
+    background-color: #cccccc;
 }
 .footer {
     position: relative;
