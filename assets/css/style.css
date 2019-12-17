@@ -1,49 +1,63 @@
 .head{
+    width: 100%;
+    padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
     border-color: #cccccc;
 }
 
+.main-nav {
+    float:right;
+}
+                        
+.main-nav ul {
+    list-style-type: none;
+}
+                        
+.main-nav ul li {
+    display: inline-block;
+}
+
+
 .logo {
+    float:left;
+    width:33.3%;
+
+}
+#profilePic {
+    position:top 20;
+    position: right 2;
+    height: 10%;
     float:left;
 }
 
 .container {
+    Position:top 10%;
+    Position: right 33.3%;
     Margin: auto;
+    Border-top: 20px;
+    border-left: auto;
+    border-right: auto;
+    border-bottom: 50px;
     width: 960px;
+    height: 35%;
+    clear:both;
     font-family: Arial, Helvetica, sans-serif;
     background-color:#ffffff;
     border-color:#dddddd;
 }
 
-#profilePic {
-    display: inline-block;
-}
+
 
 .aboutMe {
-    float:right;
-}
-.main-nav {
-    float:right;
-}
-
-.main-nav ul {
-    list-style-type: none;
-}
-
-.main-nav ul li {
-    display: inline-block;
-}
-
-.main-nav ul li a {
-    text-decoration: none;
-    color:
+    float:clear both;
 }
 
 #main-info {
     color: #777;
 }
 .footer {
+    position: relative;
     background-color: #666666;
 }
 Colors (Pro Tip: Use the Eye Dropper Chrome extension to find the colors that are used on webpages.)
