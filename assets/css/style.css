@@ -6,26 +6,28 @@ body {
     background-color:#777;
 }
 
-form {
-    
-}
 .head {
     width: 100%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    margin-bottom: 0.1%;
+    padding: 0 4%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
     border-color: #cccccc;
+
 }
 
-#name {
+.container header h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     width: 12.5%;
+    text-align: left;
+    margin-left: 20%; 
+    padding: 0 4%;
+
 }
 
 #main-nav {
+    position: absolute;; 
+    top: 2%; left: 85%;
     float:right;
 }
                         
@@ -56,12 +58,6 @@ form {
     Border: 1px solid;
     Margin: 30px;
 
-}
-
-
-.aboutMe {
-    
-    
 }
 
 #main-info {
