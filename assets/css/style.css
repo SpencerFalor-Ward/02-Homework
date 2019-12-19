@@ -7,15 +7,23 @@ body {
     
 }
 
+.comtainer {
+    width: 960px;
+}
 .head {
     width: 100%;
     padding: 0 3%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
     border-color: #cccccc;
+    overflow: hidden;
 
 }
 
+#aboutlink {
+    border-right:1px solid #777;
+    padding-right: 1px; 
+}
 .container header h1 {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -23,11 +31,16 @@ body {
     text-align: left;
     margin-left: 20%; 
     padding: 3%;
+    overflow: hidden;
 
 }
 
+.aboutMe ul li {
+    list-style-type: disc;
+}
+
 #main-nav {
-    position: absolute;; 
+    position: absolute; 
     top: 5%; 
     left: 83%;
     float:right;
@@ -73,6 +86,13 @@ body {
     padding: 2%;
     display: block;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 .footer {
     position: fixed;
     width: 100%;
@@ -82,6 +102,10 @@ body {
     background-color: #666666;
     color: #ffffff
 }
+.commission {
+
+}
+
 Colors (Pro Tip: Use the Eye Dropper Chrome extension to find the colors that are used on webpages.)
 
 Teal color (used for headings and backgrounds): #4aaaa5
