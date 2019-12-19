@@ -17,15 +17,15 @@
                 
                 <nav id="main-nav">
                     <ul>
-                        <li>
+                        <li id="aboutlink">
                             <a rel="aboutPage" href="index.html">
                                 About                   
                     </a> 
                 </li>
-                <li>
-                    Contact |                
+                <li id="contactlink">
+                    Contact              
                 </li>
-                <li>
+                <li id="portfoliolink">
                     <a rel="protfolio" href="portfolio.html">
                         Portfolio   
                     </a> 
@@ -33,36 +33,42 @@
                     </ul>
                 </nav>
             </header>
-        <h1 class="logo">
-        Contact
-        </h1>
-
-    <section id="main-info" class="clearfix">
-        <!--Fill in form will be sent to .php file with submitted info-->
+            
+            <section id="main-info" class="clearfix">
+                <!--Fill in form will be sent to .php file with submitted info-->
+                <h1 class="logo">
+                    <p>Contact</p>
+                    </h1>
         
-        <form action="/action_page.php">
+        <form class="form" action="/action_page.php">
+            <div class="clearfix">
             <!--First name fill in-->
             <label for="fname">First Name
             </label>
             <input type="text" id="fname" name="firstname" placeholder="Your name...">
+            <br>
             
             <!--Last name fill in-->
             <label for="lname">Last Name
             </label>
             <input type="text" id="lname" placeholder="Your last name...">
+            <br>
             
             <!--Email fill in-->
             <label for="email">Email
             </label>
             <input type="text" id="email" placeholder="Email">
+            <br>
             
             <!--Message fill in-->
             <label for="message">Message  
             </label>
             <textarea id="message" name="message" placeholder="Say summ'n....or not, school" style="height:200px">
             </textarea>
-            <input type="submit" value="Send into the aether">
-        
+            <br>
+            <input type="submit" id="sendButton" value="Send into the aether">
+            <br>
+            </div>
         </form>
 
 </div>
