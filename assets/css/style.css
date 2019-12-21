@@ -1,10 +1,12 @@
+
+/* changed #ffffff to rgb(233, 233, 233) */
 * {
     box-sizing: border-box;
 }
 
 body {
     background-color:#777;
-    
+    background-image: url(../images/subtle_white_feathers.png);
 }
 
 .comtainer {
@@ -14,16 +16,23 @@ body {
 .head {
     width: 100%;
     padding: 0 3%;
+    Border: 1px solid rgb(220, 220, 220);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #ffffff;
+    background-color: rgb(233, 233, 233);
     border-color: #cccccc;
     overflow: hidden;
     position: relative;
+    
 
 }
+
+/* my name at the top of site */
 .name{
     position: absolute;
+    font-size: x-large;
 }
+
+/* Nav links to each page */
 #aboutlink {
     border-right:1px solid #777;
     padding: 0% 1%; 
@@ -39,23 +48,28 @@ body {
     padding: 0% 1%;
 }
 
+/* the container for my name */
 .container header h1 {
     background-color: #4aaaa5;
-    color: #ffffff;
+    color: rgb(233, 233, 233);
     width: 20%;
     text-align: center;
-    margin-left: 5%; 
     padding: 3%;
     overflow: hidden;
+    position: relative;
+    border: 0px 1px solid rgb(220, 220, 220);  
 
 }
 
 .aboutMe {
+    position:relative;
     line-height: 160%;
+    padding: 5%;
 }
 
 .aboutMe ul {
-    padding-left: 40%;
+    position: relative;
+    left: 3%;
 }
 
 .aboutMe ul li {
@@ -84,10 +98,13 @@ a {
     text-decoration: none;
 }
 
+
+/* main-info title, About,Contact,Portfolio */
 .logo {
     border-bottom: 1px solid darkgrey;
     position: relative;
     padding: 2%;
+    font-size: x-large;
 }
 
 .logo p {
@@ -101,18 +118,19 @@ a {
     float:left;
     clear:left;
     position: inline;
-    Border: 1px rgb(211, 209, 209) solid;
+    Border: 2px rgb(220, 220, 220) solid;
     Margin: 30px;
 
 }
 
 #main-info {
     position: relative;
-    background-color: #ffffff;
+    background-color: rgb(233, 233, 233);
     margin: 2% 3%;
-    Border: 1px;
+    Border: 2px solid rgb(220, 220, 220);
     padding: 2%;
     display: block;
+    background-image: url(../images/rockywall.png)
 }
 
 .clearfix::after {
@@ -127,17 +145,14 @@ a {
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     margin-top: 0.1%;
+    border-top: 3px solid #4aaaa5;
     background-color: #666666;
-    color: #ffffff
+    color: #ffffff;
 }
 
 .form{
     margin:2% 12.5%;
     clear: both;
-}
-
-label {
-    
 }
 
 input {
@@ -155,15 +170,14 @@ margin: 2% 0%;
 }
 
 .projectGrid {
-    display: flex;
-    position:flex;
+    display: grid;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-.col-lg-12{
+    justify-content: normal;
+    align-content: normal;
+    padding: 0;
+    margin: 0;
+
 }
 
 .col-lg-12 p {
@@ -171,14 +185,35 @@ margin: 2% 0%;
     background-color: #4aaaa5; 
     width: 12.5%;
     text-decoration: none;
-    display: inline;
+    overflow: hidden;
+    color: #ffffff;
+
+}
+
+#project1 {
+    order: 1;
+    align-items: flex-start;
+}
+#project2 {
+    order: 2;
+    align-items: flex-start;
+}
+#project3 {
+    order: 3;
+    
+}
+#project4 {
+    order: 4;
+    
+}
+#project5 {
+    order: 5;
+
 }
 
 img {
-    position: inline;
-    Border: 1px rgb(211, 209, 209) solid;
+    Border: 1px rgb(220, 220, 220) solid;
     Margin: auto;
-    display:inline-block;
     padding:auto;
 }
 
