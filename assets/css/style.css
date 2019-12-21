@@ -9,7 +9,7 @@ body {
     background-image: url(../images/subtle_white_feathers.png);
 }
 
-.comtainer {
+.container {
     position: relative;
     width: 960px;
 }
@@ -126,8 +126,8 @@ a {
 #main-info {
     position: relative;
     background-color: rgb(233, 233, 233);
-    margin: 2% 3%;
     Border: 2px solid rgb(220, 220, 220);
+    margin: 2% 3%;
     padding: 2%;
     display: block;
     background-image: url(../images/rockywall.png)
@@ -137,7 +137,7 @@ a {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
 .footer {
     position: sticky;
@@ -148,6 +148,7 @@ a {
     border-top: 3px solid #4aaaa5;
     background-color: #666666;
     color: #ffffff;
+    bottom:0%;
 }
 
 .form{
@@ -157,12 +158,12 @@ a {
 
 input {
     width:100%;
-margin: 2% 0%;
+    margin: 2% 0%;
 }
 
 textarea {
-width:100%;
-margin: 2% 0%;
+    width:100%;
+    margin: 2% 0%;
 }
 
 #sendButton {
@@ -171,15 +172,37 @@ margin: 2% 0%;
 
 .projectGrid {
     display: grid;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: normal;
-    align-content: normal;
     padding: 0;
     margin: 0;
-
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 5vw);
+    grid-gap: 15px;
+    
 }
 
+.projectGrid a {
+    position: relative;
+}
+
+.projectGrid p {
+    position: absolute;
+    z-index: 100;
+    bottom: 5px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    Border: 1px solid rgb(220, 220, 220);
+    padding: 1px;
+    width:100%;
+}
+
+.projectGrid img {
+    Border: 1px rgb(220, 220, 220) solid;
+    Margin: auto;
+    padding:auto;
+    height:100%;
+    width:100%;
+    object-fit: over;
+}
 .col-lg-12 p {
     z-index: 1;
     background-color: #4aaaa5; 
@@ -193,21 +216,44 @@ margin: 2% 0%;
 #project1 {
     order: 1;
     align-items: flex-start;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4; 
 }
 #project2 {
     order: 2;
     align-items: flex-start;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4; 
 }
 #project3 {
     order: 3;
+    align-items: flex-start;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6; 
     
 }
 #project4 {
     order: 4;
+    align-items: flex-start;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6; 
     
 }
 #project5 {
     order: 5;
+    align-items: flex-start;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 8; 
 
 }
 
