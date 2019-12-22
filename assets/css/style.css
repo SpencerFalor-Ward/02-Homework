@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    position: relative;
+    position: absolute;
     width: 960px;
 }
 .head {
@@ -141,6 +141,7 @@ a {
 
 .footer {
     position: sticky;
+    z-index: 200;
     width: 100%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
@@ -186,12 +187,13 @@ textarea {
 
 .projectGrid p {
     position: absolute;
-    z-index: 100;
+    z-index: 10;
     bottom: 5px;
     background-color: #4aaaa5;
     color: #ffffff;
     Border: 1px solid rgb(220, 220, 220);
-    padding: 1px;
+    padding: 3%;
+    bottom: 14%;
     width:100%;
 }
 
