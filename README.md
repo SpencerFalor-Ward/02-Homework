@@ -17,6 +17,7 @@ Working on this site will help me **practice practice practice** HTML, CSS and p
 The dificulties about this project are as follows:
 - Writing the code
   - Adding my own personal touch with out getting to *deep in the weeds*
+  - **CSS** positioning and size specifically
 - Making sure that I include all requirements
   - I'm looking at you  [sticky footer](https://css-tricks.com/couple-takes-sticky-footer/)
 - Getting enough sleep
